@@ -1,0 +1,14 @@
+{
+  "name": "InputStoppedListener",
+  "version": "1.0.0",
+  "keywords": ["util", "functional", "server", "client", "browser"],
+  "author": "jeremyelliot@gmail.com",
+  "contributors": [],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

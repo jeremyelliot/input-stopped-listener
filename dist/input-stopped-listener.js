@@ -1,0 +1,1 @@
+!function(t){t.fn.inputStoppedListener=function(e){var n=t(this),i={wait:300,eventType:"input:stopped",listenEvents:"keyup change",inputSelector:"input"};return t.extend(i,e),n.filter(i.inputSelector).each(function(){var e=t(this);e.on(i.listenEvents,function(){var t=e.val();setTimeout(function(){t===e.val()&&e.trigger(i.eventType)},i.wait)})}),n}}(jQuery);
