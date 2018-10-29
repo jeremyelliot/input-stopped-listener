@@ -1,3 +1,5 @@
+Deprecated in favour of [jeremyelliot/hesitation](https://github.com/jeremyelliot/hesitation)
+
 # input-stopped-listener
 
 A jQuery plugin that lets you add a new "input:stopped" event type to text input elements.
